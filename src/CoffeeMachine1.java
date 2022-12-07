@@ -26,18 +26,18 @@ class CoffeeMachine {
 	
 	public boolean isOn;   //attribute
 	
-	public String strenght;   //attribute
+	public String strength;   //attribute
 	
 	public CoffeeMachine() {     //default constructor
 		
 		isOn = false;
-		strenght = "";
+		strength = "";
 	}
 	
 	public CoffeeMachine(boolean isMachineOn, String strenghtSetting) {    //Parameterised constructor
 		
 		isOn = isMachineOn;
-		strenght = strenghtSetting;
+		strength = strenghtSetting;
 		
 	}
 	
@@ -54,17 +54,17 @@ class CoffeeMachine {
 	
 	public void weak() {
 		
-		strenght = "weak";
+		strength = "weak"; 
 	}
 	
 	public void strong() {
 		
-		strenght = "strong";
+		strength = "strong";
 	}
 	
 	public void printData() {                                 //Method for printing data
 		
-		System.out.println(" Strengt setting is : " + strenght );
+		System.out.println(" Strengt setting is : " + strength );
 		
 		if (isOn == true) {
 			
@@ -78,7 +78,7 @@ class CoffeeMachine {
 	public void changeData(boolean isMachineOn, String strenghtSetting) {  //method for changing data
 		
 		isOn = isMachineOn;
-		strenght = strenghtSetting;
+		strength = strenghtSetting;
 	}
 	
 	
