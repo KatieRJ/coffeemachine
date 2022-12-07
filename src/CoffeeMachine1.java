@@ -3,6 +3,7 @@ public class CoffeeMachine1 {
 
 	public static void main(String[] args) {
 		
+		System.out.println("The best coffee machine!");
 		
 		CoffeeMachine machine1 = new CoffeeMachine();  // creating an object
 		machine1.start();
